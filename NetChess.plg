@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetChess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/NetChess.res" /d "_DEBUG" "D:\avm\avm2\software\SnakesLadders\NetChess.rc"" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP3DD.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetChess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\avm\avm2\software\SnakesLadders\ChessBoard.cpp"
+"D:\avm\avm2\software\SnakesLadders\GameType.cpp"
+"D:\avm\avm2\software\SnakesLadders\MainFrm.cpp"
+"D:\avm\avm2\software\SnakesLadders\NetChess.cpp"
+"D:\avm\avm2\software\SnakesLadders\NetChessDoc.cpp"
+"D:\avm\avm2\software\SnakesLadders\NetChessView.cpp"
+]
+Creating command line "cl.exe @c:\PROGRA~2\Temp\RSP3DD.tmp" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP3DE.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetChess.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\avm\avm2\software\SnakesLadders\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\PROGRA~2\Temp\RSP3DE.tmp" 
+Creating temporary file "c:\PROGRA~2\Temp\RSP3DF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SnakesLadders.pdb" /debug /machine:I386 /out:"Debug/SnakesLadders.exe" /pdbtype:sept 
+.\Debug\ChessBoard.obj
+.\Debug\GameType.obj
+.\Debug\MainFrm.obj
+.\Debug\NetChess.obj
+.\Debug\NetChessDoc.obj
+.\Debug\NetChessView.obj
+.\Debug\StdAfx.obj
+.\Debug\NetChess.res
+]
+Creating command line "link.exe @c:\PROGRA~2\Temp\RSP3DF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChessBoard.cpp
+GameType.cpp
+MainFrm.cpp
+NetChess.cpp
+NetChessDoc.cpp
+NetChessView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SnakesLadders.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
